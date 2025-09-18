@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-18T07:20:16 ICT" name="Main Test" finished-at="2025-09-18T07:20:59 ICT" duration-ms="42719">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hadir.runners.RunnerImportAbsen@4562e04d]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2025-09-18T07:20:16 ICT" name="Test " finished-at="2025-09-18T07:20:59 ICT" duration-ms="42719">
+      <class name="com.hadir.runners.RunnerImportAbsen">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.hadir.runners.RunnerImportAbsen@4562e04d]" started-at="2025-09-18T07:20:16 ICT" name="setUpClass" finished-at="2025-09-18T07:20:17 ICT" duration-ms="1276" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@159424e2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hadir.runners.RunnerImportAbsen@4562e04d]" started-at="2025-09-18T07:20:17 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-18T07:20:39 ICT" duration-ms="22116" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Pengguna bisa melakukan download template absen"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Download Absen"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hadir.runners.RunnerImportAbsen@4562e04d]" started-at="2025-09-18T07:20:39 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-18T07:20:49 ICT" duration-ms="9491" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Pengguna tidak bisa melakukan upload file absen, kecuali format .xls atau .xlsx"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Import Absen negative test"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.hadir.runners.RunnerImportAbsen@4562e04d]" started-at="2025-09-18T07:20:49 ICT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-09-18T07:20:58 ICT" duration-ms="9006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Pengguna bisa upload file absen dan datanya berhasil diimpor ke sistem"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Import Absen"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.hadir.runners.RunnerImportAbsen@4562e04d]" started-at="2025-09-18T07:20:58 ICT" name="tearDownClass" finished-at="2025-09-18T07:20:59 ICT" duration-ms="761" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.hadir.runners.RunnerImportAbsen -->
+    </test> <!-- Test  -->
+  </suite> <!-- Main Test -->
+</testng-results>
