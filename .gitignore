@@ -1,12 +1,20 @@
-# IDE / Editor files
+# IDE / Editor
 .vscode/
 .idea/
 *.iml
 
-# Sistem operasi
+# OS
 .DS_Store
 Thumbs.db
 
-# Log dan temporary
+# Log & Temp
 *.log
 *.tmp
+
+# Build
+target/
+build/
+
+# Test reports
+/test-output/
+/surefire-reports/
